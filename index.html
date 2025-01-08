@@ -1,253 +1,221 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제이시티</title>
+    <link rel="stylesheet" href="./lib/css/reset.css" />
+    <link rel="stylesheet" href="./lib/css/base.css" />
+    <link rel="stylesheet" href="./lib/css/fonts.css" />
+    <link rel="stylesheet" href="./lib/css/jquery.mb.YTPlayer.min.css" />
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>헤라 따라만들기</title>
-
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <script src="./js/jquery-1.12.4.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./lib/js/jquery-1.12.4.js"></script>
+    <script src="./lib/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./lib/js/swiper-bundle.min.js"></script>
     <script src="./js/custom.js"></script>
-</head>
-
-<body>
-    <header class="header">
-        <div class="inner">
-            <h1>
-                <a href="/">
-                    <img src="./images/logo-white.svg" alt="헤라">
-                </a>
-            </h1>
-            <nav class="gnb">
-                <ul>
-                    <li><a href="">헤라 스토리</a></li>
-                    <li><a href="">메이크업</a></li>
-                    <li><a href="">스킨케어</a></li>
-                    <li><a href="">프래그런스</a></li>
-                    <li><a href="">#HERA</a></li>
-                </ul>
-            </nav>
-            <div class="utils">
-                <a href="">
-                    <img src="./images/user.svg" alt="">
-                </a>
-                <a href="">
-                    <img src="./images/search.svg" alt="">
-                </a>
-            </div>
-
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header_wrap">
+        <h1>
+          <a href="/"><img src="./images/logo_on.png" alt="" /></a>
+        </h1>
+        <nav class="gnb">
+          <ul>
+            <li>
+              <a href="">회사소개</a>
+              <ul>
+                <li><a href="">회사개요</a></li>
+                <li><a href="">회사연혁</a></li>
+                <li><a href="">조직도</a></li>
+                <li><a href="">찾아오시는 길</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">제품소개</a>
+              <ul>
+                <li><a href="">SORTER</a></li>
+                <li><a href="">Vacuum Handling System</a></li>
+                <li><a href="">OGAYA</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">인재채용</a>
+              <ul>
+                <li><a href="">인사/복리후생제도</a></li>
+                <li><a href="">채용공고</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">고객센터</a>
+              <ul>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">자료실</a></li>
+                <li><a href="">온라인 문의</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="utils">
+          <a href="">
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="./lib/images/feather-sprite.svg#search" />
+            </svg>
+          </a>
+          <a href="">
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="./lib/images/feather-sprite.svg#globe" />
+            </svg>
+          </a>
         </div>
+      </div>
     </header>
     <main id="content">
-        <section class="main_visual">
-            <h2 class="blind">main visual</h2>
-            <div class="main_visual_slide swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide itm itm01">
-                        <div class="txt">
-                            <strong>ROUGE CLASSY</strong>
-                            <p>SEOUL RED</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide itm itm02">
-                        <div class="txt">
-                            <strong>헤라 NEW 브랜드 캠페인</strong>
-                            <p>HOW FAR CAN YOU GO</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide itm itm03">
-                        <div class="txt">
-                            <strong>헤라 2024 홀리데이 리미티드</strong>
-                            <p>드림스케이프 보야지 컬렉션</p>
-                        </div>
-                    </div>
-                </div>
+      <section class="main_visual">
+        <h2 class="blind">main visual</h2>
+        <div class="main_visual_slide swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide itm itm01">
+              <div class="txt">
+                <strong>Together On Top</strong>
+                <p>HILLSTATE</p>
+              </div>
             </div>
-            <div class="arrows">
-                <button class="prev">
-                    <img src="./images/chevron-left.svg" alt="">
-                </button>
-                <button class="next">
-                    <img src="./images/chevron-right.svg" alt="">
-                </button>
+            <div class="swiper-slide itm itm02">
+              <div class="txt">
+                <strong>Together On Top</strong>
+                <p>HILLSTATE</p>
+              </div>
             </div>
-
-            <div class="wheel">
-                <span>scroll</span>
+            <div class="swiper-slide itm itm03">
+              <div class="txt">
+                <strong>Together On Top</strong>
+                <p>HILLSTATE</p>
+              </div>
             </div>
-        </section>
-        <section class="main_content default">
-            <div class="title">
-                <h2>BEST SELLER</h2>
-                <p>최근 헤라에서 가장 잘 팔리고 있는 아이템들.</p>
-            </div>
-            <div class="inner">
-                <ul class="best_tab_menu">
-                    <li><button class="on">MAKEUP</button></li>
-                    <li><button>SKINCARE</button></li>
-                </ul>
-                <div class="best_tab_content">
-                    <div class="con on">
-                        <a href="" class="itm" data-num="1">
-
-                            <figure>
-                                <img src="./images/main_content011.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="2">
-                            <figure>
-                                <img src="./images/main_content012.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="3">
-                            <figure>
-                                <img src="./images/main_content013.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="4">
-                            <figure>
-                                <img src="./images/main_content014.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                    </div>
-                    <div class="con">
-                        <a href="" class="itm" data-num="1">
-                            <figure>
-                                <img src="./images/main_content021.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="2">
-                            <figure>
-                                <img src="./images/main_content022.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="3">
-                            <figure>
-                                <img src="./images/main_content023.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                        <a href="" class="itm" data-num="4">
-                            <figure>
-                                <img src="./images/main_content024.png" alt="">
-                            </figure>
-                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="main_product default">
-            <div class="title">
-                <h2>main product</h2>
-            </div>
-            <ul class="menu_wrap">
-                <li><a href="">FACE</a></li>
-                <li><a href="">LIP</a></li>
-                <li><a href="">SKINCARE</a></li>
-            </ul>
-        </section>
-        <section class="main_promotion default">
-            <div class="inner">
-                <div class="desc">
-                    <div class="title">
-                        <h2>main promotion</h2>
-                        <p>
-                            헤라 홍보 동영상 헤라 홍보 동영상상 헤라 홍보 동영상<br />
-                            헤라 홍보 동영상 헤라 <br />
-                        </p>
-                    </div>
-                    <div class="control">
-                        <button class="play">
-                            <img src="./images/play.svg" alt="">
-                        </button>
-                        <button class="pause">
-                            <img src="./images/pause.svg" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="movie">
-                    <video src="./images/hera_movie.mp4" muted playsinline loop></video>
-                </div>
-            </div>
-        </section>
-        <section class="main_movie default">
-            <div class="title">
-                <h2>main promotion</h2>
-                <p>
-                    [HERA] GLOW FLOWS IN YOU ｜NEW GLOW LASTING FOUNDATION ｜NEW 글로우 래스팅 파운데이션
-                </p>
-                <div class="control">
-                    <button class="play">
-                        <img src="./images/play.svg" alt="">
-                    </button>
-                    <button class="pause">
-                        <img src="./images/pause.svg" alt="">
-                    </button>
-                    <button class="fullscreen">
-                        <img src="./images/airplay.svg" alt="">
-                    </button>
-                </div>
-            </div>
-            <div id="bgndVideo" class="player" data-property="">
-                <span class="blind">홈보바다오</span>
-            </div>
-
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="inner">
-            <div class="sns">
-                <a href="" target="_blank">
-                    <img src="./images/instagram.svg" alt="">
-                </a>
-                <a href="" target="_blank">
-                    <img src="./images/facebook.svg" alt="">
-                </a>
-                <a href="" target="_blank">
-                    <img src="./images/youtube.svg" alt="">
-                </a>
-            </div>
-            <ul class="customer">
-                <li><a href="">서비스이용약관</a></li>
-                <li><a href="" class="b">개인정보처리방침</a></li>
-                <li><a href="">영상정보처리방침</a></li>
-                <li><a href="">뷰티포인트</a></li>
-                <li><a href="">사이트맵</a></li>
-            </ul>
-
-            <p class="tel">고객상담팀(수신자요금부담) 080-023-5454 (상담시간 월~금 : AM 09:00 ~ PM 06:00)</p>
-            <address>
-                &copy; AMOREPACIFIC CORPORATION. All rights reserved.
-            </address>
-
-            <div class="flk">
-                <select id="flk">
-                    <option value="">Family Link</option>
-                    <option value="http://naver.com">naver</option>
-                    <option value="http://daum.net">daum</option>
-                </select>
-            </div>
+          </div>
         </div>
-    </footer>
-    <button class="to_top">
-        <img src="./images/arrow-up.svg" alt="">
-    </button>
-</body>
-
+        <div class="arrows">
+          <button class="prev">
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="./lib/images/feather-sprite.svg#chevron-left" />
+            </svg>
+          </button>
+          <button class="next">
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="./lib/images/feather-sprite.svg#chevron-right" />
+            </svg>
+          </button>
+        </div>
+        <div class="wheel">
+          <span>scroll</span>
+        </div>
+      </section>
+      <section class="main_content default">
+        <div class="title">
+          <h2>BRAND PHILOSOPHY</h2>
+          <p>
+            라이프스타일 리더<br />
+            힐스테이트
+          </p>
+        </div>
+        <div class="inner">
+          <ul class="brand_tab_menu">
+            <li><button class="on">indoor interior</button></li>
+            <li><button>outdoor interior interior</button></li>
+          </ul>
+          <div class="brand_tab_content">
+            <div class="con on">
+              <a href="" class="itm" data-num="1">
+                <figure>
+                  <img src="./images/brand_content01.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="2">
+                <figure>
+                  <img src="./images/brand_content02.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="3">
+                <figure>
+                  <img src="./images/brand_content03.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="4">
+                <figure>
+                  <img src="./images/brand_content04.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+            </div>
+            <div class="con">
+              <a href="" class="itm" data-num="1">
+                <figure>
+                  <img src="./images/brand_content021.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="2">
+                <figure>
+                  <img src="./images/brand_content022.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="3">
+                <figure>
+                  <img src="./images/brand_content023.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+              <a href="" class="itm" data-num="4">
+                <figure>
+                  <img src="./images/brand_content024.jpg" alt="" />
+                </figure>
+                <strong>Lorem ipsum dolor sit.</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
